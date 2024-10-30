@@ -1,0 +1,303 @@
+.viberent_my_cart {
+    background-color: white;
+    min-height: 800px;
+}
+
+.viberent_my_cart .vibecart_remove {
+    border: none !important;
+    background-color: transparent !important;
+    color: #337ab7 !important;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.viberent_my_cart .vibecart_remove_ico {
+    font-weight: 900;
+}
+
+.viberent_my_cart .vibs_topdiv #vibfontop {
+    font-size: 16px !important;
+}
+
+.viberent_my_cart .vibs_topdiv {
+    width: 90% !important;
+    max-width: 90% !important;
+}
+
+.viberent_my_cart .vibs_maindiv {
+    width: 90% !important;
+    max-width: 90% !important;
+}
+
+.viberent_my_cart .cart-box {
+    border: 1px solid #ececec;
+    padding: 15px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.viberent_my_cart .order-summary {
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+}
+
+.viberent_my_cart .subtotal-details,
+.viberent_my_cart .tax-details {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.viberent_my_cart .total-details {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 0 10px 0;
+}
+
+.viberent_my_cart .continue_shopping_viberent {
+    font-size: 12px;
+}
+
+.viberent_my_cart .continue_shopping_viberent a {
+    text-decoration: none;
+}
+
+.viberent_my_cart .cart-box {
+    position: sticky;
+    background-color: white;
+}
+
+.viberent_my_cart .vibshophead {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.viberent_my_cart .vibshopheading {
+    border-bottom: 1px solid #ececec;
+}
+
+.viberent_my_cart .belowheadgap {
+    padding: 25px 0 200px 0;
+}
+
+.viberent_my_cart .quantity-submit {
+    display: none !important;
+}
+
+.viberent_my_cart .viberent_cart_quantity {
+    margin: auto;
+}
+
+header {
+  position: relative !important;
+}
+
+.viberent_my_cart .viberent_shop_now,
+.viberent_my_cart .viberent_shop_now:hover {
+    text-decoration: none !important;
+    text-transform: unset !important;
+}
+
+.viberent_my_cart .tbl-cart {
+    font-size: 14px !important;
+    table-layout: auto;
+    width: 100%;
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.viberent_my_cart #shopping-cart table td {
+   background-color: #FFFFFF;
+}
+
+.viberent_my_cart #shopping-cart table th,
+.viberent_my_cart #shopping-cart table td {
+    border: 0px !important;
+    border-top: 1px solid #F0F0F0 !important;
+    word-break: normal;
+}
+
+.viberent_my_cart .cart-item-image{
+    max-width: 50px;
+}
+
+.viberent_my_cart #shopping-cart{
+    overflow: auto;
+}
+
+.viberent_my_cart #my-shopping-cart+hr {
+   margin: 10px 0 0 0;
+}
+
+.viberent_my_cart #my-shopping-cart {
+   display: flex !important;
+   justify-content: right;
+}
+
+.viberent_my_cart #btnEmpty {
+   background-color: red;
+   padding: 5px 10px;
+   color: white;
+   float: right;
+   text-decoration: none;
+   border-radius: 3px;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.viberent_my_cart .cart-item-image {
+   width: 50px !important;
+   height: 50px !important;
+   border-radius: 50%;
+   border: #E0E0E0 1px solid;
+   padding: 5px;
+   vertical-align: middle;
+   margin-right: 15px;
+}
+
+.viberent_my_cart #btn_place_order {
+   padding: 0 !important;
+   width: 100%;
+   height: 44px;
+   background-color: #f08833 !important;
+   border: none !important;
+   cursor: pointer !important;
+   text-transform: unset !important;
+}
+
+.viberent_my_cart #btn_place_order h5 {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: unset;
+    color: white !important;
+}
+
+.viberent_my_cart #btn_place_order:hover {
+    text-decoration: unset;
+    opacity: 0.8;
+}
+.viberent_my_cart #btn_place_order h2 {
+   margin: 10px;
+}
+
+.viberent_my_cart .has-badge[data-count]:after {
+    right: 0%;
+    top: 0%;
+    content: attr(data-count);
+    font-size: 20px;
+    padding: 0;
+    line-height: .75em;
+    text-align: center;
+}
+
+.viberent_my_cart .my_cart_heading {
+    color: green;
+    font-weight: 600;
+    padding: 0 !important;
+    font-size: 24px;
+}
+
+.viberent_my_cart .my_cart_heading a {
+    color: green;
+    text-decoration: none;
+}
+
+.viberent_my_cart span {
+    cursor: pointer;
+}
+
+.viberent_my_cart .number {
+    margin: 10px;
+    width: 100px;
+}
+
+.viberent_my_cart .minus, .viberent_my_cart .plus {
+    width: 20px;
+    height: 20px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 0px 5px 8px 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.viberent_my_cart .cart_page input {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.viberent_my_cart .cart_page input:hover{
+       padding: 0;
+}
+
+.viberent_my_cart .tbl-cart th {
+   background-color: white !important;
+   color: black !important;
+   font-weight: 600 !important;
+   font-size: 11px !important;
+   padding: 5px !important;
+   margin: 0 !important;
+}
+
+.viberent_my_cart .tbl-cart tbody td {
+   background-color: white !important;
+   color: black !important;
+   font-weight: 400 !important;
+   font-size: 16px !important;
+   padding: 10px 5px;
+   margin: 0 !important;
+}
+
+.viberent_my_cart .tbl-cart tr:not(:last-child) td:first-child {
+   display: flex;
+}
+
+.viberent_my_cart #btn_place_order[disabled] {
+    border-color: #dbdbdb;
+    box-shadow: none;
+    opacity: .5;
+}
+
+.viberent_my_cart .no-records {
+   text-align: center;
+   clear: both;
+   padding-bottom: 7rem;
+}
+
+.viberent_my_cart .no-records .btn-primary{
+   font-size:24px !important;
+       text-decoration: unset;
+}
+
+@media screen and (max-width: 992px) {
+    .viberent_my_cart .tbl-cart tr:not(:last-child) td:first-child {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .viberent_my_cart .parent-flex .backButton{
+         margin: 0 0 0px 0;
+   }
+}
+
+@media screen and (min-width: 1615px) {
+	.viberent_my_cart .tbl-cart th {
+		   font-size: 14px !important;
+	}
+}

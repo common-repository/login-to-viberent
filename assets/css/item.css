@@ -1,0 +1,326 @@
+.viberent_item_layout {
+    background-color: white !important;
+	padding-top: 10px;
+}
+
+header {
+   position: relative !important;
+}
+
+body.admin-bar.et_fixed_nav #main-header {
+	top: 0 !important;
+}
+
+div#page-container {
+   padding-top: 0 !important;
+}
+
+ul#top-menu {
+	align-items: baseline;
+}
+
+.viberent_item_layout .btnAddAction {
+    margin: 0px !important;
+    padding: 10px 20px !important;
+    border: #E0E0E0 1px solid !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    background-color: #f08833 !important;
+    color: white !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    display: none !important;
+}
+
+.viberent_item_layout .btnAddAction:hover {
+   text-decoration: none !important;
+}
+
+.viberent_item_layout .btnAddAction:disabled {
+    background-color: #dddddd !important;
+    color: white !important;
+}
+
+.viberent_item_layout .add_to_cart_icon {
+    font-size: 40px !important;
+    cursor: pointer !important;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.viberent_item_layout .add-to-cart-component:hover .add_to_cart_icon {
+    display: none !important;
+}
+
+.viberent_item_layout .add-to-cart-component:hover .btnAddAction {
+  display: block !important;
+}
+
+
+.viberent_item_layout select {
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: menulist;
+    background: 0;
+}
+
+.viberent_item_layout .btn_mycart {
+   position: fixed;
+   z-index: 5;
+   margin-right: -65px;
+}
+
+.viberent_item_layout .new-booking {
+    color: black;
+    font-size: 20px !important;
+    margin: 0 0 5px 0 !important;
+    font-weight: 600 !important;
+}
+
+.viberent_item_layout #period {
+    height: 25px !important;
+    margin-top: 0 5px !important;
+}
+.viberent_item_layout .item-summary .minimize .less, .viberent_item_layout .item-summary .minimize .more{
+   color: #007bff;
+}
+
+.viberent_item_layout .product-image {
+    margin: 0 !important;
+    padding: 15px 0px !important;
+}
+
+.viberent_item_layout .item-info .product-image img {
+    margin: 0 !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 150px !important;
+    object-fit: contain !important;
+    border-radius: 10px !important;
+}
+
+.viberent_item_layout .item-info .product-image img:hover {
+    transform: scale(1.2);
+}
+
+.viberent_item_layout .rental-period label {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.viberent_item_layout .rental-period form * {
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+}
+
+.viberent_item_layout .item-category-box .item-info {
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.viberent_item_layout .btn_available {
+    background-color: #d4f296 !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.viberent_item_layout .btn_book, .viberent_item_layout .btn_details, .viberent_item_layout .btn_availability {
+    background-color: transparent !important;
+    padding: 10px 0px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    font-size: 18px !important;
+}
+
+.viberent_item_layout .product-title h2 {
+    margin: 0 !important;
+    padding: 0px !important;
+    font-weight: 500 !important;
+}
+
+.viberent_item_layout .product-pricing {
+    color: limegreen !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    padding: 0px !important;
+}
+
+.viberent_item_layout .product-name {
+    font-size: 18px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: black;
+}
+
+.viberent_item_layout .available {
+    width: 20% !important;
+}
+
+.viberent_item_layout .available div {
+    padding-bottom: 10px !important;
+}
+
+.viberent_item_layout .available div:not(:first-child) {
+    padding-left: 10px !important;
+}
+
+.viberent_item_layout input[placeholder="Select End Date"] {
+    padding-left: 6px !important;
+}
+
+.viberent_item_layout input[placeholder="Select Start Date"] {
+    padding-left: 6px !important;
+}
+
+.viberent_item_layout .input-group {
+    display: flex !important;
+    max-width: 100% !important;
+}
+    
+.viberent_item_layout .item-summary p {
+    font-size: 18px !important;
+}
+
+.viberent_item_layout #my-dates {
+    visibility: hidden;
+}
+
+.viberent_item_layout .item-summary p {
+    word-wrap: break-word !important;
+}
+
+.viberent_item_layout .categories ul li.active a {
+   color: #fff !important;
+   background-color: #0a68a4 !important;
+}
+
+.viberent_item_layout .product-quantity {
+    padding: 0 0 0 1px;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    border: #E0E0E0 1px solid !important;
+    width: 60px !important;
+	color: #000;
+}
+
+.viberent_item_layout .item-details .buy-items-btn {
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+}
+
+.viberent_item_layout .item-category-box {
+    box-sizing: border-box !important;
+    background: #ffffff !important;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 18%) !important;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    height: 95%;
+}
+
+.viberent_item_layout .viberent_main_container .rental-period {
+   font-size: 18px !important;
+   color: white !important;
+   box-sizing: border-box !important;
+   background: #f08833 !important;
+   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 18%) !important;
+   text-align:center !important;
+   position: relative !important;
+   border-radius: 5px !important;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.viberent_item_layout .rental-period input, .viberent_item_layout .rental-period select {
+    padding: 0 5px !important;
+    position: relative !important;
+    width: 160px !important;
+    height: 25px !important;
+    line-height: 1 !important;
+    border: 1px solid !important;
+    margin-top: 0 !important;
+    background-color: #fff !important;
+	color: #000;
+}
+
+.viberent_item_layout .rental-period input:before {
+    position: absolute !important;
+    top: 3px !important;
+    left: 3px !important;
+    content: attr(data-date) !important;
+    display: inline-block !important;
+    color: black !important;
+}
+
+.viberent_item_layout .rental-period input::-webkit-datetime-edit,
+.viberent_item_layout .rental-period input::-webkit-inner-spin-button,
+.viberent_item_layout .rental-period input::-webkit-clear-button {
+    display: none !important;
+}
+
+.viberent_item_layout .rental-period input::-webkit-calendar-picker-indicator {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0 !important;
+    color: black !important;
+    opacity: 1 !important;
+}
+
+.viberent_item_layout .product-available {
+    color: red !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+
+.viberent_item_layout .item-summary {
+    color: dimgray !important;
+	padding: 10px 0 0px 0;
+}
+
+.viberent_item_layout .item-summary .minimize .less, .viberent_item_layout .item-summary .minimize .more{
+	color: #007bff;
+}
+
+.viberent_item_layout .product-quantity-message {
+    color: red !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    padding: 0px !important;
+}
+
+@media screen and (max-width: 1200px) {
+   .viberent_item_layout .item-details * {
+    font-size: 18px;
+   }
+   .viberent_item_layout .btnAddAction {
+    padding: 10px !important;
+    font-size: 16px !important;
+   }
+}
+
+@media screen and (min-width: 1500px) {
+   .viberent_item_layout .viberent_main_container {
+        padding: 3rem 0 !important;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+   .viberent_item_layout .btn_mycart {
+      margin-right: -50px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .viberent_item_layout .btn_mycart {
+      margin-right: -50px;
+   }
+   .viberent_main_container {
+        padding: 20px 50px !important;
+   }
+}

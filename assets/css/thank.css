@@ -1,0 +1,44 @@
+.viberent-thanku-section .thanku-section h1{
+    font-size:32px;
+    color:black;
+}
+
+header {
+    position: relative !important;
+}
+
+.viberent-thanku-section #thanku span.vibe_quote_num {
+    font-weight:normal;
+    display:block;
+}
+
+.viberent-thanku-section .thanku-section h3{
+    font-size: 16px;
+    margin: 18px 0;
+}
+
+.viberent-thanku-section #thanku {
+    background-color: white;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.viberent-thanku-section .thanku-section h4{
+    font-size:16px;
+    color: green;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.viberent-thanku-section #btn_shop_now {
+    background-color: #4d96d5;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.viberent-thanku-section #continue_btn {
+    margin-top: 40px;
+}
